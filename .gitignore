@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Raw screenshots - contain real player data
+captures/
+
+# Raw OCR data - contains real player data
+mon.csv
+tue.csv
+wed.csv
+thur.csv
+fri.csv
+sat.csv
+
+# Clean/output datasets - contain real player data
+output/
+
+# Temporary review/debug files
+cleaner_results.txt
+
+# EasyOCR / model files if they appear locally
+.easyocr/
+
+# Windows junk
+Thumbs.db
+desktop.ini
+
+# Images may contain real player data
+*.png
